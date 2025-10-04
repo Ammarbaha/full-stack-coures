@@ -4,52 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> لوحة التحكم</title>
+    <title>لوحة التحكم</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="dashboard-layout">
-        <!-- start Sidebar -->
+
         <aside class="sidebar">
-            <div class="logo">لوحة الادارة</div>
+            <div class="logo">لوحة الإدارة</div>
             <nav class="nav-menu">
                 <ul>
-                    <li class="active"><a href="#">الرئيسية</a></li>
-                    <li><a href="#">الاحصائيات</a></li>
-                    <li><a href="#">التقارير</a></li>
-                    <li><a href="#">المستخدمون</a></li>
-                    <li><a href="login.html">تسجيل الخروج</a></li>
+                    <li class="active"><a href="#"><i class="icon">🏠</i> الرئيسية</a></li>
+                    <li><a href="#"><i class="icon">📊</i> الإحصائيات</a></li>
+                    <li><a href="#"><i class="icon">📝</i> التقارير</a></li>
+                    <li><a href="#"><i class="icon">👤</i> المستخدمون</a></li>
+                    <li><a href="login.html"><i class="icon">↩️</i> تسجيل خروج</a></li>
                 </ul>
             </nav>
         </aside>
-        <!-- End Sidebar -->
 
         <main class="main-content">
             <header class="main-header">
-                <h1>مرحبا بك في لوحة التحكم</h1>
+                <h1>مرحبًا بك في لوحة التحكم!</h1>
             </header>
+
             <div class="stats-cards">
                 <div class="card stat-card blue-bg">
-                    <h3>2500</h3>
+                    <h3>2,540</h3>
                     <p>المبيعات اليومية</p>
                 </div>
                 <div class="card stat-card green-bg">
-                    <h3>12,500</h3>
-                    <p> الإيرادات الكلية</p>
+                    <h3>$12,500</h3>
+                    <p>الإيرادات الكلية</p>
                 </div>
                 <div class="card stat-card purple-bg">
                     <h3>150</h3>
-                    <p> الطلبات الجديدة</p>
+                    <p>الطلبات الجديدة</p>
                 </div>
                 <div class="card stat-card red-bg">
-                    <h3>10%</h3>
-                    <p> معدل النمو</p>
+                    <h3>9%</h3>
+                    <p>معدل النمو</p>
                 </div>
             </div>
 
             <div class="data-sections">
-
                 <div class="card chart-section">
                     <h2>نظرة عامة على البيانات</h2>
                     <div class="placeholder-chart">
@@ -58,7 +57,7 @@
                 </div>
 
                 <div class="card table-section">
-                    <h2>اخر الطلبات</h2>
+                    <h2>آخر الطلبات</h2>
                     <table class="data-table">
                         <thead>
                             <tr>
@@ -71,33 +70,27 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>كمبيوتر</td>
-                                <td class="status-badge shipped">تم الشحن</td>
-                                <td>500$</td>
+                                <td>كمبيوتر محمول</td>
+                                <td><span class="status-badge shipped">تم الشحن</span></td>
+                                <td>$999</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>كمبيوتر</td>
-                                <td class="status-badge pending">قيد الانتظار </td>
-                                <td>500$</td>
+                                <td>شاحن هاتف</td>
+                                <td><span class="status-badge pending">قيد الانتظار</span></td>
+                                <td>$25</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>كمبيوتر</td>
-                                <td class="status-badge delivered"> تم التوصيل</td>
-                                <td>500$</td>
+                                <td>سماعات أذن</td>
+                                <td><span class="status-badge delivered">تم التوصيل</span></td>
+                                <td>$149</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-
-
-
         </main>
-
-
-
     </div>
 </body>
 
